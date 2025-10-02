@@ -78,9 +78,9 @@ export default {
           name: 'Fuld marketings side nuværende arbejdsplads',
           description: 'Jeg har designet og udarbejdet hele siden her, det er det eneste projekt jeg må vise frem fra min nuværende arbejdsplads',
           homepage: 'https://www.reportability.dk/',
-          image: new URL('../assets/images/reportability.PNG', import.meta.url).href,
-          language: 'Go',
-          technologies: ['Go', 'PostgreSQL', 'Docker']
+          image: new URL('../assets/images/reportability.png', import.meta.url).href,
+          language: 'Webflow',
+          technologies: ['CSS', 'HTML', 'JS', 'Figma']
         },
         {
           id: 3,
