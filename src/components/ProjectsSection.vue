@@ -104,7 +104,7 @@ export default {
         {
           id: 5,
           name: 'CVR Data og sambeskatning',
-          description: 'Lavede så system selv udfra et cvr nummer kunne finde alle selskaber i en sambeskatning',
+          description: 'Lavede så system selv udfra et cvr nummer kunne finde alle selskaber i en sambeskatning. KODE GDPR LÅST',
           image: new URL('../assets/images/daniel.PNG', import.meta.url).href,
           language: 'Golang',
           technologies: ['Golang', 'MongoDB', 'Docker', 'GCP', 'Postman', 'React', 'NodeJS']
@@ -112,7 +112,7 @@ export default {
         {
           id: 6,
           name: 'Pubsub Message queue',
-          description: 'Lavede client libs og opsætning af komplet pubsub system i Go, node.js og c#',
+          description: 'Lavede client libs og opsætning af komplet pubsub system i Go, node.js og c#, KODE GDPR LÅST',
           image: new URL('../assets/images/pubsub.png', import.meta.url).href,
           language: 'Pubsub',
           technologies: ['Golang', 'NodeJS', 'C#', 'GCP']
