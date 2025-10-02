@@ -113,7 +113,7 @@ export default {
           id: 6,
           name: 'Pubsub Message queue',
           description: 'Lavede client libs og opsætning af komplet pubsub system i Go, node.js og c#',
-          image: new URL('../assets/images/discordBot.PNG', import.meta.url).href,
+          image: new URL('../assets/images/pubsub.png', import.meta.url).href,
           language: 'Pubsub',
           technologies: ['Golang', 'NodeJS', 'C#', 'GCP']
         }
