@@ -1,0 +1,28 @@
+:root {
+    --primary-color: #3498db; /* Example primary color */
+    --secondary-color: #2ecc71; /* Example secondary color */
+    --accent-color: #e74c3c; /* Example accent color */
+    --background-color: #ffffff; /* Example background color */
+    --text-color: #333333; /* Example text color */
+    --font-family: 'Source Sans Pro', sans-serif; /* Font family */
+}
+
+body {
+    margin: 0;
+    font-family: var(--font-family);
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
