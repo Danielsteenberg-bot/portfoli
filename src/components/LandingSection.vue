@@ -33,16 +33,16 @@ export default {
       rainDrops: [],
       images: [
         {
-          src: '/src/assets/images/family.jpg',
-          sizeRange: [90, 120] // Biggest - family image
+          src: new URL('../assets/images/family.jpg', import.meta.url).href,
+          sizeRange: [90, 120]
         },
         {
-          src: '/src/assets/images/digselv.jpg',
-          sizeRange: [70, 90] // Medium - profile image
+          src: new URL('../assets/images/digselv.jpg', import.meta.url).href,
+          sizeRange: [70, 90]
         },
         {
-          src: '/src/assets/images/hamselv.png',
-          sizeRange: [60, 80] // Smaller - hamselv image
+          src: new URL('../assets/images/hamselv.png', import.meta.url).href,
+          sizeRange: [60, 80]
         }
       ]
     }

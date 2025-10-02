@@ -70,7 +70,7 @@ export default {
           name: 'Håkan Media',
           description: 'En moderne portfolio website bygget med Vue.js og responsive design',
           homepage: 'https://www.alexanderhaakansson.dk/',
-          image: '/src/assets/images/www.alexanderhaakansson.dk_.png',
+          image: new URL('../assets/images/www.alexanderhaakansson.dk_.png', import.meta.url).href,
           technologies: ['Webflow']
         },
         {
@@ -78,7 +78,7 @@ export default {
           name: 'Fuld marketings side nuværende arbejdsplads',
           description: 'Jeg har designet og udarbejdet hele siden her, det er det eneste projekt jeg må vise frem fra min nuværende arbejdsplads',
           homepage: 'https://www.reportability.dk/',
-          image: '/src/assets/images/reportability.png',
+          image: new URL('../assets/images/reportability.PNG', import.meta.url).href,
           language: 'Go',
           technologies: ['Go', 'PostgreSQL', 'Docker']
         },
@@ -88,7 +88,7 @@ export default {
           description: 'Mit første "rigtige" webprojekt fra min tid som webudvikler, hvor jeg byggede en komplet side fuld vanilla og på magisk vist fik det solgt',
           html_url: 'https://github.com/Danielsteenberg-bot/km_treepleje',
           homepage: 'https://xn--km-trpleje-h6a.dk/',
-          image: '/src/assets/images/km-snip.PNG',
+          image: new URL('../assets/images/km-snip.PNG', import.meta.url).href,
           language: 'Golang',
           technologies: ['Node.js', 'HTML', 'Vanilla CSS', 'Golang']
         },
@@ -97,7 +97,7 @@ export default {
           name: 'Rag forsøg',
           description: 'Første macinelearnings projekt, vi skulle lære en model at kode, og så evaluere den på forskellige måder',
           html_url: 'https://github.com/KevinNielsen00/ML-Gruppe1',
-          image: '/src/assets/images/code-img.gif',
+          image: new URL('../assets/images/code-img.gif', import.meta.url).href,
           language: 'Python',
           technologies: ['Python', 'numpy', 'Pandas', 'Torch']
         },
@@ -105,7 +105,7 @@ export default {
           id: 5,
           name: 'CVR Data og sambeskatning',
           description: 'Lavede så system selv udfra et cvr nummer kunne finde alle selskaber i en sambeskatning',
-          image: '/src/assets/images/daniel.PNG',
+          image: new URL('../assets/images/daniel.PNG', import.meta.url).href,
           language: 'Golang',
           technologies: ['Golang', 'MongoDB', 'Docker', 'GCP', 'Postman', 'React', 'NodeJS']
         },
@@ -113,7 +113,7 @@ export default {
           id: 6,
           name: 'Pubsub Message queue',
           description: 'Lavede client libs og opsætning af komplet pubsub system i Go, node.js og c#',
-          image: '/src/assets/images/pubsub.PNG',
+          image: new URL('../assets/images/discordBot.PNG', import.meta.url).href,
           language: 'Pubsub',
           technologies: ['Golang', 'NodeJS', 'C#', 'GCP']
         }

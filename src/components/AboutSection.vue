@@ -33,7 +33,7 @@
         
         <div class="about-image">
           <div class="image-placeholder">
-            <img src="/src/assets/images/digselv.jpg" alt="Profilbillede" />
+            <img :src="profileImage" alt="Profilbillede" />
           </div>
         </div>
       </div>
@@ -43,7 +43,13 @@
 
 <script>
 export default {
-  name: 'AboutSection'
+  name: 'AboutSection',
+
+  data() {
+    return {
+      profileImage: new URL('../assets/images/digselv.jpg', import.meta.url).href
+    }
+  }
 }
 </script>
 

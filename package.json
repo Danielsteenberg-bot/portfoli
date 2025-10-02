@@ -1,24 +1,20 @@
 {
   "name": "vue-portfolio-app",
-  "version": "1.0.0",
-  "description": "A portfolio application built with Vue.js and PrimeVue components.",
-  "main": "src/main.js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
-    "serve": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^4.6.2",
-    "primeicons": "^7.0.0",
-    "primevue": "^4.4.0",
-    "sass": "^1.32.0",
-    "vite": "^4.5.14",
-    "vue": "^3.5.22",
-    "vue-router": "^4.5.1"
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5",
+    "primevue": "^3.46.0"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.8"
+  }
 }

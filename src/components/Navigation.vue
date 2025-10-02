@@ -1,8 +1,8 @@
 <template>
   <nav class="navbar">
     <div class="nav-brand">
-      <img src="/favicon.ico" alt="Stonedesigns" class="nav-logo">
-      <span>Stonedesigns</span>
+      <img :src="logoImage" alt="Stonedesigns" class="nav-logo">
+      <span>Daniel Steenberg</span>
     </div>
     <ul class="nav-menu">
       <li><a href="#landing" class="nav-link">Hjem</a></li>
@@ -16,7 +16,12 @@
 
 <script>
 export default {
-  name: 'Navigation'
+  name: 'Navigation',
+  data() {
+    return {
+      logoImage: new URL('../assets/images/hamselv.png', import.meta.url).href
+    }
+  }
 }
 </script>
 
@@ -44,8 +49,11 @@ export default {
 }
 
 .nav-logo {
-  width: 32px;
-  height: 32px;
+  width: 100px;
+  height: 100px  ;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid rgba(34, 163, 159, 0.3);
 }
 
 .nav-menu {
@@ -62,5 +70,19 @@ export default {
 
 .nav-link:hover {
   color: #22A39F;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+  
+  .nav-menu {
+    gap: 1rem;
+  }
+  
+  .nav-brand span {
+    display: none;
+  }
 }
 </style>
